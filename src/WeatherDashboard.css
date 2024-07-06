@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right, #3b82f6, #34d399);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80vw;
+  height: 90vh;
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 90vw;
+  }
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.searchbar img {
+  height: 40px;
+  padding: 10px;
+  border: 2px black;
+  background-color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.weather-card {
+  background-image: url("./assets/dark-stormy-clouds.jpg"); /* Replace with your image path */
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.weather-icon img {
+  width: 200px;
+  height: 200px;
+  margin: 0px;
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.sub-image {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap: 50px;
+}
+
+.sub-image img {
+  width: 60px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-bold-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #333333d5;
+}
+
+.input {
+  padding-left: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #c37a27d5;
+}
+
+.roboto-temp {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #ca5426e8;
+}
+
+.roboto-sub-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #167aa1;
+}
+
+.pressure {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.roboto-sub {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #1db786;
+}
